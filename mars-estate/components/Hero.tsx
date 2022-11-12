@@ -80,7 +80,9 @@ const Hero = (props: Props) => {
             >
               Sign in
             </button>
-            <Bars2Icon className="w-12 text-white md:hidden xl:block cursor-pointer" />
+            <motion.div whileTap={{ scale: 0.5, rotate: -90 }}>
+              <Bars2Icon className="w-12 text-white md:hidden xl:block cursor-pointer" />
+            </motion.div>
           </motion.div>
         </nav>
         <motion.div

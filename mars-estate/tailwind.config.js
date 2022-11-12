@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-background": "url('../assets/img/hero-backgorund.jpg')",
+        1: "url('../assets/img/mercedes-benz-museum.jpg')",
+        2: "url('../assets/img/museum-yellow.jpg')",
+        3: "url('../assets/img/man-mars.jpg')",
       },
     },
   },
