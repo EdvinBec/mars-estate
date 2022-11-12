@@ -1,7 +1,19 @@
+import Hero from "../components/Hero";
+
 export default function Home() {
   return (
     <>
-      <h1 className="font-[EuclidFlexBold] text-3xl">Hello</h1>
+      {/*Hero */}
+      <header>
+        <Hero />
+      </header>
+      {/*Quote */}
+      {/*Feature cards */}
+      {/*Quality */}
+      {/*Quote card */}
+      {/*Catalog cards */}
+      {/*Quote */}
+      {/*Footer*/}
     </>
   );
 }
