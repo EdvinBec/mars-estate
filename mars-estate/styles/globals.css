@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "EuclidFlexBold";
+  src: url(../assets/fonts/EuclidFlexBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "EuclidFlexNormal";
+  src: url(../assets/fonts/EuclidFlexRegular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "EuclidFlexSemi";
+  src: url(../assets/fonts/EuclidFlexSemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "EuclidFlexLight";
+  src: url(../assets/fonts/EuclidFlexLight.ttf) format("truetype");
+}
