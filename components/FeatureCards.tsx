@@ -10,7 +10,7 @@ type Props = {};
 
 function FeatureCards({}: Props) {
   return (
-    <div className="h-screen w-screen bg-black md:flex items-center justify-center">
+    <div className="h-auto md:h-screen w-screen bg-black md:flex items-center justify-center">
       <div className=" md:h-[97%] md:w-[96%] md:flex md:gap-4 md:justify-center">
         <div className="md:h-full md:w-1/2 h-[500px]">
           <FeatureCard1 />
