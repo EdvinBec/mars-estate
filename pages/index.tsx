@@ -1,3 +1,4 @@
+import ExcellentQuality from "../components/ExcellentQuality";
 import FeatureCards from "../components/FeatureCards";
 import Hero from "../components/Hero";
 import Quote from "../components/Quote";
@@ -11,11 +12,13 @@ export default function Home() {
       <section className="snap-center">
         <Quote />
       </section>
-      {/*Feature cards */}
       <section className="md:snap-center">
         <FeatureCards />
       </section>
       {/*Quality */}
+      <section className="md:snap-center">
+        <ExcellentQuality />
+      </section>
       {/*Quote card */}
       {/*Catalog cards */}
       {/*Quote */}
