@@ -4,7 +4,7 @@ type Props = {};
 
 const Quote = (props: Props) => {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div className="h-[800px] w-full flex justify-center items-center mt-4 bg-white">
       <h1 className=" text-center text-5xl font-[EuclidFlexSemi] leading-normal w-[90%]">
         <span className="hover:text-[#f89e2b] transition ease-in-out">
           Apartments

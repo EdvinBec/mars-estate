@@ -6,7 +6,10 @@ import QuoteCard from "../components/QuoteCard";
 
 export default function Home() {
   return (
-    <div className="h-screen snap-y md:snap-mandatory overflow-scroll overflow-x-hidden">
+    <div
+      className="h-screen snap-y md:snap-mandatory overflow-scroll overflow-x-hidden overflow-y-scroll scroll-4 scrollbar scrollbar-track-gray-400/20
+    scrollbar-thumb-[#f89e2b]/80 bg-black"
+    >
       <header className="snap-center">
         <Hero />
       </header>
