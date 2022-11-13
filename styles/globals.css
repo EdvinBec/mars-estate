@@ -18,7 +18,3 @@
   font-family: "EuclidFlexLight";
   src: url(../assets/fonts/EuclidFlexLight.ttf) format("truetype");
 }
-
-.hero-bg {
-  background-image: url("../assets/img/hero-backgorund.jpg");
-}

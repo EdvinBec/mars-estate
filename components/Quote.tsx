@@ -5,7 +5,7 @@ type Props = {};
 const Quote = (props: Props) => {
   return (
     <div className="h-screen w-full flex justify-center items-center">
-      <h1 className=" text-center text-6xl font-[EuclidFlexSemi] leading-normal w-[90%]">
+      <h1 className=" text-center text-5xl font-[EuclidFlexSemi] leading-normal w-[90%]">
         <span className="hover:text-[#f89e2b] transition ease-in-out">
           Apartments
         </span>{" "}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import marsLogo from "../assets/img/MarsLogo.png";
+import marsLogo from "../assets/img/MarsLogo-min.png";
 import { Bars2Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import { motion } from "framer-motion";
