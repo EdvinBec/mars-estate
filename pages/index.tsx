@@ -2,6 +2,7 @@ import ExcellentQuality from "../components/ExcellentQuality";
 import FeatureCards from "../components/FeatureCards";
 import Hero from "../components/Hero";
 import Quote from "../components/Quote";
+import QuoteCard from "../components/QuoteCard";
 
 export default function Home() {
   return (
@@ -16,10 +17,13 @@ export default function Home() {
         <FeatureCards />
       </section>
       {/*Quality */}
-      <section className="md:snap-center">
+      <section className="snap-center">
         <ExcellentQuality />
       </section>
       {/*Quote card */}
+      <section className="snap-center">
+        <QuoteCard />
+      </section>
       {/*Catalog cards */}
       {/*Quote */}
       {/*Footer*/}
